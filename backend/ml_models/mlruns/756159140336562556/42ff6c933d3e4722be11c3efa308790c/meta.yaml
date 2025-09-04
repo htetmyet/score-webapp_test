@@ -1,0 +1,14 @@
+artifact_uri: file:///app/backend/ml_models/mlruns/756159140336562556/42ff6c933d3e4722be11c3efa308790c/artifacts
+end_time: 1756983518086
+entry_point_name: ''
+experiment_id: '756159140336562556'
+lifecycle_stage: active
+run_id: 42ff6c933d3e4722be11c3efa308790c
+run_name: sneaky-crab-577
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1756983505011
+status: 3
+tags: []
+user_id: root

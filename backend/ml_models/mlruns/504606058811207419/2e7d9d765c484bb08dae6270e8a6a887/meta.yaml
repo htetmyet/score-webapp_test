@@ -1,0 +1,14 @@
+artifact_uri: file:///app/backend/ml_models/mlruns/504606058811207419/2e7d9d765c484bb08dae6270e8a6a887/artifacts
+end_time: 1756984631362
+entry_point_name: ''
+experiment_id: '504606058811207419'
+lifecycle_stage: active
+run_id: 2e7d9d765c484bb08dae6270e8a6a887
+run_name: puzzled-penguin-315
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1756984624490
+status: 3
+tags: []
+user_id: root

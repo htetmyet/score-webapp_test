@@ -1,0 +1,29 @@
+version: '3.8'
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: ./backend/Dockerfile.runner
+    image: scoreweb_backend:latest
+    env_file:
+      - ./.env
+    volumes:
+      - ./backend:/app/backend
+    ports:
+      - '8000:8000'
+    environment:
+      - PYTHONUNBUFFERED=1
+      - TELEGRAM_BOT_TOKEN=${TELEGRAM_BOT_TOKEN}
+      - TELEGRAM_CHAT_ID=${TELEGRAM_CHAT_ID}
+      - PREDICTIONS_DIR=/app/backend/ml_models/predictions
+      # optional runtime controls
+      - RUNNER_TIMEOUT_SEC=${RUNNER_TIMEOUT_SEC:-1800}
+  frontend:
+    build:
+      context: .
+      dockerfile: ./frontend/Dockerfile
+    image: scoreweb_frontend:latest
+    ports:
+      - '3000:80'
+    depends_on:
+      - backend

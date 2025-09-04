@@ -1,0 +1,14 @@
+artifact_uri: file:///app/backend/ml_models/mlruns/756159140336562556/0ea3c09028a14a01b4bad2a4e7deb257/artifacts
+end_time: 1756983733068
+entry_point_name: ''
+experiment_id: '756159140336562556'
+lifecycle_stage: active
+run_id: 0ea3c09028a14a01b4bad2a4e7deb257
+run_name: bustling-lamb-231
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1756983724210
+status: 3
+tags: []
+user_id: root

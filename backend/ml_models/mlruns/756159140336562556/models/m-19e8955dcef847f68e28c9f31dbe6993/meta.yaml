@@ -1,0 +1,10 @@
+artifact_location: file:///app/backend/ml_models/mlruns/756159140336562556/models/m-19e8955dcef847f68e28c9f31dbe6993/artifacts
+creation_timestamp: 1756984610889
+experiment_id: '756159140336562556'
+last_updated_timestamp: 1756984616228
+model_id: m-19e8955dcef847f68e28c9f31dbe6993
+model_type: null
+name: xgb_model_sklearn
+source_run_id: 8eb0bbdac03a4d26811cbcba5ed2275d
+status: 2
+status_message: null

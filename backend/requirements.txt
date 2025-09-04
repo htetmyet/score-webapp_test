@@ -1,0 +1,17 @@
+Flask>=2.0
+pandas
+numpy
+scikit-learn
+requests
+fastapi
+uvicorn
+mlflow
+chardet
+ftfy
+glob2
+xgboost
+matplotlib
+seaborn
+joblib
+optuna
+# add other libs your scripts need here (tensorflow, torch, etc.)

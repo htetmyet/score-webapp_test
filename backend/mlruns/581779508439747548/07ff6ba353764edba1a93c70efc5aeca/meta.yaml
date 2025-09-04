@@ -1,0 +1,14 @@
+artifact_uri: file:///app/backend/mlruns/581779508439747548/07ff6ba353764edba1a93c70efc5aeca/artifacts
+end_time: 1756981329048
+entry_point_name: ''
+experiment_id: '581779508439747548'
+lifecycle_stage: active
+run_id: 07ff6ba353764edba1a93c70efc5aeca
+run_name: wistful-snake-529
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1756981323147
+status: 4
+tags: []
+user_id: root

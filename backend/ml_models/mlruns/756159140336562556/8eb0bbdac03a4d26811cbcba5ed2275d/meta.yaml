@@ -1,0 +1,14 @@
+artifact_uri: file:///app/backend/ml_models/mlruns/756159140336562556/8eb0bbdac03a4d26811cbcba5ed2275d/artifacts
+end_time: 1756984616264
+entry_point_name: ''
+experiment_id: '756159140336562556'
+lifecycle_stage: active
+run_id: 8eb0bbdac03a4d26811cbcba5ed2275d
+run_name: bustling-duck-508
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1756984604220
+status: 3
+tags: []
+user_id: root

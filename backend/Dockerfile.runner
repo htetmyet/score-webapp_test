@@ -1,0 +1,34 @@
+FROM python:3.11-slim
+
+# Set working directory inside the container
+WORKDIR /app
+
+# Prevent Python from writing .pyc files and enable unbuffered logging
+ENV PYTHONDONTWRITEBYTECODE=1 \
+    PYTHONUNBUFFERED=1
+
+# Install essential system dependencies
+RUN apt-get update && \
+    apt-get install -y --no-install-recommends \
+    build-essential \
+    git && \
+    rm -rf /var/lib/apt/lists/*
+
+# ✅ Copy the entire backend folder into the container
+COPY backend /app/backend
+
+# Switch into backend directory for installing dependencies
+WORKDIR /app/backend
+
+# ✅ Install dependencies if requirements.txt exists
+RUN pip install --no-cache-dir --upgrade pip && \
+    if [ -f requirements.txt ]; then pip install --no-cache-dir -r requirements.txt; fi
+
+# ✅ Ensure artifacts folder exists
+RUN mkdir -p /app/backend/ml_models/artifacts 
+
+# Expose FastAPI port
+EXPOSE 8000
+
+# Start the FastAPI app using Uvicorn
+CMD ["uvicorn", "runner_api:app", "--host", "0.0.0.0", "--port", "8000"]

@@ -1,0 +1,6 @@
+artifact_location: file:///app/backend/ml_models/mlruns/504606058811207419
+creation_time: 1756983528132
+experiment_id: '504606058811207419'
+last_update_time: 1756983528132
+lifecycle_stage: active
+name: Football Over/Under 2.5 Goals Prediction

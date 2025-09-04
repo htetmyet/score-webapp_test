@@ -1,0 +1,14 @@
+artifact_uri: file:///app/backend/ml_models/mlruns/504606058811207419/c74ceba719a14e459e1a17f0cdf03ad3/artifacts
+end_time: 1756983744884
+entry_point_name: ''
+experiment_id: '504606058811207419'
+lifecycle_stage: active
+run_id: c74ceba719a14e459e1a17f0cdf03ad3
+run_name: efficient-robin-444
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1756983739542
+status: 3
+tags: []
+user_id: root

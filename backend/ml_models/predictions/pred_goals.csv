@@ -1,0 +1,12 @@
+Div,Date,Team,Opponent,Predicted_Goals,Prob_Over,Prob_Under,B365>2.5,B365<2.5
+EC,02/09/2025,Braintree Town,Tamworth,Under 2.5,0.48641783,0.51358217,1.85,1.95
+EC,02/09/2025,Eastleigh,Scunthorpe,Over 2.5,0.52215934,0.47784066,2.15,1.67
+EC,02/09/2025,Morecambe,Forest Green,Over 2.5,0.65191483,0.34808517,1.53,2.4
+EC,02/09/2025,Solihull,Yeovil,Under 2.5,0.4076747,0.5923253,2.05,1.75
+EC,02/09/2025,Wealdstone,Southend,Over 2.5,0.61510235,0.38489765,1.98,1.83
+EC,03/09/2025,Brackley Town,Carlisle,Under 2.5,0.47840348,0.52159655,1.9,1.9
+EC,03/09/2025,Gateshead,Altrincham,Over 2.5,0.5604084,0.4395916,1.57,2.35
+EC,03/09/2025,Halifax,Woking,Under 2.5,0.39834905,0.60165095,2.0,1.8
+EC,03/09/2025,Hartlepool,Boston Utd,Under 2.5,0.41164714,0.58835286,1.85,1.95
+EC,03/09/2025,Sutton,Boreham Wood,Under 2.5,0.46104142,0.53895855,1.9,1.9
+EC,03/09/2025,Truro,Aldershot,Over 2.5,0.5969563,0.4030437,1.75,2.05

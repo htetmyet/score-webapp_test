@@ -1,0 +1,14 @@
+artifact_uri: file:///app/backend/ml_models/mlruns/504606058811207419/9c93b7a8265e49ceb7183d7b6adf6780/artifacts
+end_time: 1756983535275
+entry_point_name: ''
+experiment_id: '504606058811207419'
+lifecycle_stage: active
+run_id: 9c93b7a8265e49ceb7183d7b6adf6780
+run_name: nervous-bass-367
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1756983528207
+status: 3
+tags: []
+user_id: root

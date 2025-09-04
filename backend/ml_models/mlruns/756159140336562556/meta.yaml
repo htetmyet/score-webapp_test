@@ -1,0 +1,6 @@
+artifact_location: file:///app/backend/ml_models/mlruns/756159140336562556
+creation_time: 1756983504907
+experiment_id: '756159140336562556'
+last_update_time: 1756983504907
+lifecycle_stage: active
+name: Football Match Result Prediction
