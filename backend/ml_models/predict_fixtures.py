@@ -106,3 +106,10 @@ print(f"✅ High-confidence predictions saved to {high_conf_output_path}")
 print(df_valid[output_cols])
 print("\nHigh-confidence predictions:")
 print(df_high_conf)
+
+# === Draw-only selection (draw probability >= threshold) ===
+DRAW_ONLY_THRESHOLD = 0.35
+df_draw_only = df_valid.loc[df_valid["Prob_Draw"] >= DRAW_ONLY_THRESHOLD, output_cols].copy()
+draw_only_path = OUTPUT_DIR / "pred_new_draw_only.csv"
+df_draw_only.to_csv(draw_only_path, index=False)
+print(f"✅ Draw-only predictions (Prob_Draw >= {DRAW_ONLY_THRESHOLD}) saved to {draw_only_path} ({len(df_draw_only)} rows)")

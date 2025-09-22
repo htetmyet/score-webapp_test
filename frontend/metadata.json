@@ -1,5 +1,5 @@
 {
-  "name": "Cloud Python Runner",
+  "name": "Footy At Ease",
   "description": "A stylish, interactive web interface to control and run Python programs deployed as a web service. This application provides a control panel with buttons to trigger scripts and view their output.",
   "requestFramePermissions": []
 }

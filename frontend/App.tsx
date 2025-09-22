@@ -9,15 +9,15 @@ const App: React.FC = () => {
   const scripts: Script[] = [
     {
       id: 'data-process',
-      name: 'Data Processing',
+      name: 'Fetch Latest Performance & Scraping',
       description: 'Fetches latest performance data and updates team/referee scrapings.',
       endpoint: '/api/run/data-process',
       steps: ['z_latest_performance.py', 'z_latest_team_scr_ref.py']
     },
     {
       id: 'prepare-data',
-      name: 'Prepare Dataset Only',
-      description: 'Runs adjust_team_perform.py, set_train_data.py, and data-eng.py to build cleaned dataset.',
+      name: 'Data Augmentation',
+      description: 'Runs data augemntation process to build cleaned dataset.',
       endpoint: '/api/run/prepare-data',
       steps: ['adjust_team_perform.py','set_train_data.py','ml_models/data-eng.py']
     },
@@ -72,8 +72,8 @@ const App: React.FC = () => {
     },
     {
       id: 'send-telegram',
-      name: 'Send Telegram Notification',
-      description: 'Runs `send_tele.py` to send a summary of the predictions to a Telegram channel.',
+      name: 'Send Predictions As Telegram Message',
+      description: 'Sends a summary of the predictions to a Telegram channel.',
       endpoint: '/api/run/send-telegram'
     }
   ];
@@ -82,8 +82,8 @@ const App: React.FC = () => {
     <div className="min-h-screen bg-gray-900 font-sans">
       <Header />
       <main className="container mx-auto px-4 py-8">
-        <h1 className="text-3xl md:text-4xl font-bold text-white mb-2">Control Panel</h1>
-        <p className="text-gray-400 mb-8">Trigger and monitor your Python scripts on the cloud.</p>
+        <h1 className="text-3xl md:text-4xl font-bold text-white mb-2">Lemme Cook!</h1>
+        <p className="text-gray-400 mb-8">Trigger and monitor the predictions.</p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
           {scripts.map((script) => (
@@ -92,7 +92,7 @@ const App: React.FC = () => {
         </div>
       </main>
       <footer className="text-center py-6 text-gray-600">
-        <p>FootyTips Cloud Interface &copy; 2024</p>
+        <p>Footy At Ease &copy; 2025</p>
       </footer>
     </div>
   );

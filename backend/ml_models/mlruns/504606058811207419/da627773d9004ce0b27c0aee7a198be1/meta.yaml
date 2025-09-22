@@ -1,0 +1,14 @@
+artifact_uri: file:///app/backend/ml_models/mlruns/504606058811207419/da627773d9004ce0b27c0aee7a198be1/artifacts
+end_time: 1757181209186
+entry_point_name: ''
+experiment_id: '504606058811207419'
+lifecycle_stage: active
+run_id: da627773d9004ce0b27c0aee7a198be1
+run_name: unequaled-skink-784
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1757181190545
+status: 3
+tags: []
+user_id: root

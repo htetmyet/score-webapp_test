@@ -132,3 +132,10 @@ df_high_conf.to_csv(high_conf_path, index=False)
 print(f"✅ High-confidence predictions saved to {high_conf_path}")
 
 print("\nSuspicious matches flagged:", df_valid["Suspicious"].sum())
+
+# === Draw-heavy selection (draw probability >= threshold) ===
+DRAW_THRESHOLD = 0.33
+df_draw_2x = df_valid.loc[df_valid["Prob_Draw"] >= DRAW_THRESHOLD, output_cols]
+draw_path = OUTPUT_DIR / "pred_ah_draw_2x.csv"
+df_draw_2x.to_csv(draw_path, index=False)
+print(f"✅ Draw-leaning predictions (Prob_Draw >= {DRAW_THRESHOLD}) saved to {draw_path} ({len(df_draw_2x)} rows)")

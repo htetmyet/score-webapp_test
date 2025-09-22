@@ -1,0 +1,10 @@
+artifact_location: file:///app/backend/ml_models/mlruns/504606058811207419/models/m-9436f0be8fbf4e898789e80e90dfdc62/artifacts
+creation_timestamp: 1757176694293
+experiment_id: '504606058811207419'
+last_updated_timestamp: 1757176701534
+model_id: m-9436f0be8fbf4e898789e80e90dfdc62
+model_type: null
+name: over_under_model
+source_run_id: d2a6b58d658b4b6caf7e18ca34a569e6
+status: 2
+status_message: null

@@ -26,7 +26,7 @@ const Header: React.FC = () => {
             <path d="M3 12.005h5.5" />
             <path d="M15.5 12.005h5.5" />
           </svg>
-          <span className="text-xl font-bold text-white">FootyTips Cloud Runner</span>
+          <span className="text-xl font-bold text-white">Footy At Ease</span>
         </div>
         <div className="flex items-center space-x-2">
             <div className="w-3 h-3 bg-green-500 rounded-full animate-pulse"></div>

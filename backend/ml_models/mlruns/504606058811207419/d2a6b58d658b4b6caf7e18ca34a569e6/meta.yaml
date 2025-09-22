@@ -1,0 +1,14 @@
+artifact_uri: file:///app/backend/ml_models/mlruns/504606058811207419/d2a6b58d658b4b6caf7e18ca34a569e6/artifacts
+end_time: 1757176701574
+entry_point_name: ''
+experiment_id: '504606058811207419'
+lifecycle_stage: active
+run_id: d2a6b58d658b4b6caf7e18ca34a569e6
+run_name: wistful-wren-596
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1757176688917
+status: 3
+tags: []
+user_id: root

@@ -13,8 +13,14 @@ CSV_FOLDER = os.getenv("PREDICTIONS_DIR", "ml_models/predictions/")   # Folder c
 CSV_FILES_TO_SEND = [
     "pred_goals_val_bets.csv",
     "pred_new_high_conf.csv",
-    "pred_ah_high_conf.csv"
+    "pred_ah_high_conf.csv"   
 ]
+
+# Add draw-specific prediction files
+CSV_FILES_TO_SEND.extend([
+    "pred_ah_draw_2x.csv",
+    "pred_new_draw_only.csv",
+])
 
 # Columns we want to keep if available
 SELECTED_COLUMNS = ["Date", "Team", "Opponent", "Prob_Over", "Prob_Under", "Prob_HomeWin","Prob_Draw","Prob_AwayWin"]
